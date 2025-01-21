@@ -58,7 +58,7 @@ class _HomeState extends State<Home> {
               ],
             ),
             SizedBox(
-              height: 30,
+              height: 20,
             ),
             Container(
               padding: EdgeInsets.only(left: 20),
@@ -77,7 +77,7 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-            SizedBox(height: 40.0),
+            SizedBox(height: 20.0),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -113,7 +113,7 @@ class _HomeState extends State<Home> {
             SizedBox(
               height: 20.0,
             ),
-            Container(
+            SizedBox(
               height: 240,
               child: ListView(
                 shrinkWrap: true,
